@@ -30,7 +30,7 @@ func (myPc pc) String() string {
 
 }
 
-func main() {
+func main3() {
 	myCar := car{brand: "Ford", year: 2020}
 	fmt.Println(myCar) //{Ford 2020}
 
@@ -49,7 +49,7 @@ func main() {
 
 	//PUNTEROS> acceso a la memoria
 	a := 50
-	b := &a         //b es el punerto de a
+	b := &a         //b es el puntero de a
 	fmt.Println(a)  //50
 	fmt.Println(b)  //0xc0000120f0
 	fmt.Println(*b) //50
@@ -69,5 +69,4 @@ func main() {
 	fmt.Println(myPc.ram) //32
 
 	fmt.Println(myPc.String())
-
 }
