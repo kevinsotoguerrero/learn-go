@@ -4,11 +4,11 @@ Es compilado y tipado
 
 ## Para correr archivo
 
-go run nombreArchivo.go
+`go run nombreArchivo.go`
 
 o
 
-go build nombreArchivo.go para compilar generando un archivo nombreArchivo.exe
+`go build nombreArchivo.go` para compilar generando un archivo nombreArchivo.exe
 
 ## Declaracion de variables y constantes
 
@@ -21,16 +21,16 @@ Si se declara una variable sin asignarle un valor se le asignan los zero values
 
 ### ZERO VALUES
 
-    var a int //0
-    var b float64 //0
-    var c string //""
-    var d bool //false
+var a int //0
+var b float64 //0
+var c string //""
+var d bool //false
 
 ## DEFER, CONTINUE Y BREAK
 
--**defer** para correr esa linea de codigo al final de la ejecucion pero dentro de la misma funcion o bloque de codigo
--**continue** en un ciclo, para continuar con la siguiente iteracion sin terminar el proceso actual
--**break** en un ciclo, para terminar el ciclo
+- **defer** para correr esa linea de codigo al final de la ejecucion pero dentro de la misma funcion o bloque de codigo
+- **continue** en un ciclo, para continuar con la siguiente iteracion sin terminar el proceso actual
+- **break** en un ciclo, para terminar el ciclo
 
 
 ## ARRAY Y SLICE
