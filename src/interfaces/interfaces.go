@@ -31,7 +31,7 @@ func calcular(f figuras2D) {
 	fmt.Println("Area: ", f.area())
 }
 
-func main4() {
+func main() {
 	myCuadrado := cuadrado{base: 2}
 	myRectangulo := rectangulo{base: 2, altura: 4}
 	calcular(myCuadrado)
@@ -43,6 +43,12 @@ func main4() {
 
 	myInterface := []interface{}{"hola", 12, true, 4.9}
 	fmt.Println(myInterface...)
+
+	var myInterface2 []interface{}
+	myInterface2 = append(myInterface2, "oes", 1)
+
+	fmt.Println(myInterface)
+	fmt.Println(myInterface2)
 
 	//CONCURRENCIA
 
