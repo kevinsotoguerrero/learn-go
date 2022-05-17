@@ -21,10 +21,10 @@ Si se declara una variable sin asignarle un valor se le asignan los zero values
 
 ### ZERO VALUES
 
-var a int //0
-var b float64 //0
-var c string //""
-var d bool //false
+    var a int //0
+    var b float64 //0
+    var c string //""
+    var d bool //false
 
 ## DEFER, CONTINUE Y BREAK
 
